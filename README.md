@@ -1,2 +1,2 @@
 # devOps
-This repository for my learning journey of devOps
+This repository is for my devOps learning journey.
