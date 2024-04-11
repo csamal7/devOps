@@ -29,5 +29,5 @@ if choice in ('+', '-', '*', '/'):
         print("Result of Multiply is : ",multiply(num1, num2))
     elif choice == '/':
         print("Result of Divide is : ",divide(num1, num2))
-    else:
-        print("Invalid input")
+else:
+    print("Invalid input")
