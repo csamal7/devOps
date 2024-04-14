@@ -4,7 +4,7 @@ import boto3
 ec2_resource = boto3.resource('ec2')
 
 #Replace 'YOUR_INSTANCE_ID' with the actual ID of your stopped instace
-instance_id = 'i-026db71bf32d9e9fa'
+instance_id = input("Enter the instane id that needs to be started : ")
 
 #Get the instance object
 instance = ec2_resource.Instance(instance_id)
